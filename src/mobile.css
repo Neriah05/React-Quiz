@@ -1,0 +1,157 @@
+/**************************/
+/* BELOW 428px (Tablets) */
+/**************************/
+
+@media (max-width: 428px) {
+  .app-header {
+    width: 35rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  img {
+    width: 6rem;
+  }
+
+  h1 {
+    font-family: "Codystar";
+    font-size: 4.2rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+  }
+
+  h4 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+  }
+
+  .main {
+    width: 35rem;
+  }
+}
+
+/**************************/
+/* BELOW 390px (Tablets) */
+/**************************/
+
+@media (max-width: 390px) {
+  .app-header {
+    width: 30rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  img {
+    width: 5rem;
+  }
+
+  h1 {
+    font-family: "Codystar";
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2.2rem;
+  }
+
+  .main {
+    width: 30rem;
+  }
+
+  .progress {
+    margin-bottom: 2rem;
+    display: grid;
+    justify-content: space-between;
+    gap: 1.2rem;
+    grid-template-columns: auto auto;
+    font-size: 1.4rem;
+    color: var(--color-medium);
+  }
+}
+
+/**************************/
+/* BELOW 414px (Tablets) */
+/**************************/
+
+@media (max-width: 414px) {
+  .app-header {
+    width: 30rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  img {
+    width: 5rem;
+  }
+
+  h1 {
+    font-family: "Codystar";
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2.2rem;
+  }
+
+  .main {
+    width: 35rem;
+  }
+
+  .progress {
+    margin-bottom: 2rem;
+    display: grid;
+    justify-content: space-between;
+    gap: 1.2rem;
+    grid-template-columns: auto auto;
+    font-size: 1.4rem;
+    color: var(--color-medium);
+  }
+}
